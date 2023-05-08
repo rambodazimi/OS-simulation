@@ -1,0 +1,18 @@
+int interpreter(char* command_args[], int args_size);
+int help();
+int exec_function(char* programs[], int num_programs, char* scheduling_algo);
+int exec_function_sjf(char* programs[], int num_programs);
+int exec_function_rr(char* programs[], int num_programs);
+int exec_function_rr30(char* programs[], int num_programs);
+int program_length(char *program);
+int run_two_commands(char *program, int starting_line);
+int exec_function_aging(char* programs[], int num_programs);
+int run_one_command(char *program, int starting_line);
+int exec_function_hashtag(char* programs);
+char* find_second_word(char *str);
+void copy_file(char *source_file, char *destination_directory);
+int count_lines(char *filename);
+void remove_backingstore();
+void correct_one_liner(char *script);
+void replace_semicolon_with_line(char *file);
+void print_lines_file(char *new_file, int from, int to);
