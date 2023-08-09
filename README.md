@@ -30,3 +30,14 @@ Starter shell interface. The starter shell supports the following commands:
 • print VAR Displays the STRING assigned to VAR
 
 • run SCRIPT.TXT Executes the file SCRIPT.TXT
+
+• echo Displays one token string
+
+• my_ls Lists all the files present in the current directory
+
+• my_mkdir dirname Creates a new directory in the current directory
+
+• my_touch filename Creates a new empty file inside the current directory
+
+• my_cd dirname Changes current directory to directory dirname
+
