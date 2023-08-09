@@ -41,4 +41,30 @@ OS Simulation supporting Shell commands, Memory management (demand paging), and 
 
 • my_cd dirname Changes current directory to directory dirname
 
+## Phase 2: Multi-process Scheduling
+
+• run SCRIPT Executes the commands in the file SCRIPT
+
+• run Assumes that a file exists with the provided file name, in the current directory. It opens that text file and then sends each line one at a time to the interpreter. The interpreter treats each line of text as a command. At the end of the script, the file is closed, and the command line prompt is displayed once more. While the script executes, the command line prompt is not displayed. If an error occurs while executing the script due a command syntax error, then the error is displayed, and the script continues executing.
+
+• exec prog1 prog2 prog3 POLICY Executes up to 3 concurrent programs, according to a given scheduling policy
+
+• exec takes up to four arguments. The two calls below are also valid calls of exec:
+
+o exec prog1 POLICY
+
+o exec prog1 prog2 POLICY
+
+• POLICY is always the last parameter of exec.
+
+• POLICY can take the following three values: FCFS, SJF, RR, or AGING. If other arguments are given, the shell outputs an error message, and exec terminates, returning the command prompt to the user.
+
+Exec behavior for single-process. The behavior of exec prog1 POLICY is the same as the behavior of run prog1, regardless of the policy value. Use this comparison as a sanity check.
+
+
+
+
+
+
+
 
