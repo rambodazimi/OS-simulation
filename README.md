@@ -61,6 +61,15 @@ o exec prog1 prog2 POLICY
 
 Exec behavior for single-process. The behavior of exec prog1 POLICY is the same as the behavior of run prog1, regardless of the policy value. Use this comparison as a sanity check.
 
+## Phase 3: Memory Management
+
+We are now ready to add demand paging to our shell.
+
+Handling page faults. When a program needs to execute the next line of code that resides in a page which is not yet in memory, a page fault is triggered.
+
+The final piece is adjusting the page replacement policy to Least Recently Used (LRU).
+
+
 
 
 
