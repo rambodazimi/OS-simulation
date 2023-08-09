@@ -1,6 +1,13 @@
 # OS-simulation
 OS Simulation supporting Shell commands, Memory management (demand paging), and Process Management (schedule)
 
+## Compiling your starter shell
+
+• Use the following command to compile: make mysh
+
+• Re-compiling your shell after making modifications: make clean; make mysh
+
+
 ## Running the script
 
 • Interactive mode: From the command line prompt type: ./mysh
