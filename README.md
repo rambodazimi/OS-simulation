@@ -12,7 +12,7 @@ OS Simulation supporting Shell commands, Memory management (demand paging), and 
 
 Starter shell interface. The starter shell supports the following commands:
 
-COMMAND DESCRIPTION
+### COMMAND DESCRIPTION
 
 help Displays all the commands
 
