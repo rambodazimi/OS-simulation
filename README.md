@@ -1,14 +1,16 @@
 # OS-simulation
 OS Simulation supporting Shell commands, Memory management (demand paging), and Process Management (schedule)
 
-## Compiling your starter shell
+## Phase 1: Building an OS Shell
+
+### Compiling your starter shell
 
 • Use the following command to compile: make mysh
 
 • Re-compiling your shell after making modifications: make clean; make mysh
 
 
-## Running the script
+### Running the script
 
 • Interactive mode: From the command line prompt type: ./mysh
 
@@ -16,8 +18,6 @@ OS Simulation supporting Shell commands, Memory management (demand paging), and 
 
 ./mysh < testfile.txt
 
-
-Starter shell interface. The starter shell supports the following commands:
 
 ### COMMAND DESCRIPTION
 
@@ -40,4 +40,5 @@ Starter shell interface. The starter shell supports the following commands:
 • my_touch filename Creates a new empty file inside the current directory
 
 • my_cd dirname Changes current directory to directory dirname
+
 
