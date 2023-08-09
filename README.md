@@ -4,6 +4,7 @@ OS Simulation supporting Shell commands, Memory management (demand paging), and 
 ## Running the script
 
 • Interactive mode: From the command line prompt type: ./mysh
+
 • Batch mode: You can also use input files to run your shell. To use an input file, from the command line prompt type:
 
 ./mysh < testfile.txt
